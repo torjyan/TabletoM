@@ -171,7 +171,7 @@
 				TargetAttributes = {
 					ACFC2DC01E62D0B0001068A8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = WT9B4PHACF;
+						DevelopmentTeam = VFH547A942;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -393,7 +393,7 @@
 			baseConfigurationReference = E1984BDACA9D3FF27AD341B5 /* Pods-Tableto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WT9B4PHACF;
+				DEVELOPMENT_TEAM = VFH547A942;
 				INFOPLIST_FILE = Tableto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mtorjyan.Tableto;
@@ -407,7 +407,7 @@
 			baseConfigurationReference = C889E7245A88F2969C2BF355 /* Pods-Tableto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WT9B4PHACF;
+				DEVELOPMENT_TEAM = VFH547A942;
 				INFOPLIST_FILE = Tableto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mtorjyan.Tableto;
