@@ -21,6 +21,7 @@
 		ACFC2DCF1E62D0B0001068A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFC2DCD1E62D0B0001068A8 /* LaunchScreen.storyboard */; };
 		ACFE29C51E749A7400842D6D /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE29C41E749A7400842D6D /* Drug.swift */; };
 		ACFE29C71E749D7600842D6D /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE29C61E749D7600842D6D /* MainScreenController.swift */; };
+		E4D39A2B1E77E59D00B5C27C /* postLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D39A2A1E77E59D00B5C27C /* postLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		ACFE29C61E749D7600842D6D /* MainScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
 		C889E7245A88F2969C2BF355 /* Pods-Tableto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tableto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tableto/Pods-Tableto.release.xcconfig"; sourceTree = "<group>"; };
 		E1984BDACA9D3FF27AD341B5 /* Pods-Tableto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tableto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tableto/Pods-Tableto.debug.xcconfig"; sourceTree = "<group>"; };
+		E4D39A2A1E77E59D00B5C27C /* postLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				AC9CA7F91E63C7B400124819 /* NewMessageController.swift */,
 				AC9CA7FE1E667B2200124819 /* LoginController+handlers.swift */,
 				ACFE29C61E749D7600842D6D /* MainScreenController.swift */,
+				E4D39A2A1E77E59D00B5C27C /* postLogin.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				ACFC2DC71E62D0B0001068A8 /* MessagesController.swift in Sources */,
 				AC9CA7FD1E63CE6100124819 /* User.swift in Sources */,
 				ACFC2DC51E62D0B0001068A8 /* AppDelegate.swift in Sources */,
+				E4D39A2B1E77E59D00B5C27C /* postLogin.swift in Sources */,
 				AC009C001E6AA9EB00EEC824 /* Extensions.swift in Sources */,
 				ACFE29C51E749A7400842D6D /* Drug.swift in Sources */,
 			);

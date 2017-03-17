@@ -85,14 +85,25 @@ extension LoginController : UIImagePickerControllerDelegate, UINavigationControl
                 print(err)
                 return
             }
-            self.dismiss(animated: true, completion: nil)
             
             
-            print("Saved user successfully into Firebase db")
+            /*
+ 
+                            takes to the new controller, post login
+ 
+        */
             
+            
+          
+           if let vc = self.storyboard?.instantiateViewController(withIdentifier: "post"){
+            
+                self.present(vc, animated: true, completion: nil)
+            }
         })
 
     }
+    
+    // presenting a new controlelr
     
     func handleSelectProfileImageView(){
         print(123)
