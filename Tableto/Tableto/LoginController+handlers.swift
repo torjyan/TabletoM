@@ -31,6 +31,9 @@ extension LoginController : UIImagePickerControllerDelegate, UINavigationControl
                 return
             }
             //Sucessfully logged in user.
+            
+            self.messagesController?.fetchUserAndSetupNavBarTitle()
+            
             self.dismiss(animated: true, completion: nil)
         })
         
@@ -56,10 +59,14 @@ extension LoginController : UIImagePickerControllerDelegate, UINavigationControl
             
             let imageName = NSUUID().uuidString
             
-            let storageRef = FIRStorage.storage().reference().child("profile_images").child("\(imageName).png")
+            let storageRef = FIRStorage.storage().reference().child("profile_images").child("\(imageName).jpg")
             
-            
-            if let uploadData = UIImagePNGRepresentation(self.profileImageView.image!){
+            if let profileImage = self.profileImageView.image, let uploadData = UIImageJPEGRepresentation(profileImage, 0.1){
+                
+                //if let uploadData = UIImageJPEGRepresentation(self.profileImageView.image!, 0.1){
+                
+                
+                //if let uploadData = UIImagePNGRepresentation(self.profileImageView.image!){
                 storageRef.put(uploadData, metadata: nil, completion: { (metadata, error) in
                     
                     if(error != nil){
@@ -86,24 +93,16 @@ extension LoginController : UIImagePickerControllerDelegate, UINavigationControl
                 return
             }
             
+            self.messagesController?.fetchUserAndSetupNavBarTitle()
             
-            /*
- 
-                            takes to the new controller, post login
- 
-        */
+            self.dismiss(animated: true, completion: nil)
             
             
-          
-           if let vc = self.storyboard?.instantiateViewController(withIdentifier: "post"){
+            print("Saved user successfully into Firebase db")
             
-                self.present(vc, animated: true, completion: nil)
-            }
         })
-
+        
     }
-    
-    // presenting a new controlelr
     
     func handleSelectProfileImageView(){
         print(123)

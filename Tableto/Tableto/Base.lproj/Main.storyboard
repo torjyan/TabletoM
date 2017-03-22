@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oyA-0r-eWz">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oyA-0r-eWz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Post Login-->
+        <!--Title-->
         <scene sceneID="x5b-Lh-eSM">
             <objects>
                 <viewController storyboardIdentifier="post" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oyA-0r-eWz" customClass="postLogin" customModule="Tableto" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,13 +33,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Cart" id="lTJ-yx-wrW"/>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="SkJ-xo-NlQ"/>
-                        <barButtonItem title="About Me" id="z2Y-C8-j0Q"/>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="h1v-we-BwK"/>
-                        <barButtonItem title="Item" id="iVS-DJ-CD2"/>
-                    </toolbarItems>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="p4x-dq-XnL"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQA-Yb-Wmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
