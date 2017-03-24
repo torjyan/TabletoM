@@ -122,22 +122,5 @@ class CreateDriverController: UIViewController{
     
 }
 
-extension UIViewController {
-    func hideKeyboardWhenTappedAround() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
-        view.addGestureRecognizer(tap)
-    }
-    
-    func dismissKeyboard() {
-        view.endEditing(true)
-    }
-}
 
-extension UITextField {
-    func setupBorder(){
-        self.layer.cornerRadius = 5.0
-        self.layer.borderColor = UIColor.gray.cgColor
-        self.layer.borderWidth = 1.5
-    }
-    
-}
+

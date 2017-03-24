@@ -23,7 +23,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        window = UIWindow(frame: UIScreen.main.bounds)
        window?.makeKeyAndVisible()
         
-        window?.rootViewController = UINavigationController(rootViewController: MessagesController())
+        window?.rootViewController = Menu()    // initiating the bottom tab bar
+        
+         //   window?.rootViewController = UINavigationController(rootViewController: MessagesController())
+        
+     //   window?.rootViewController = UINavigationController(rootViewController: MessagesController())
         
         return true
     }

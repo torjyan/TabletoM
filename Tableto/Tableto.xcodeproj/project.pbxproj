@@ -48,7 +48,14 @@
 		ACFDD25B1E8226BE0003AF63 /* CreateDriverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD25A1E8226BE0003AF63 /* CreateDriverController.swift */; };
 		ACFDD25D1E8227270003AF63 /* CreateDriver+handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDD25C1E8227270003AF63 /* CreateDriver+handler.swift */; };
 		ACFE29C51E749A7400842D6D /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE29C41E749A7400842D6D /* Drug.swift */; };
+		E449C5651E8431BD009559D0 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C5641E8431BD009559D0 /* CartViewController.swift */; };
+		E449C56C1E843360009559D0 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C56A1E843360009559D0 /* TableViewCell2.swift */; };
+		E449C56D1E843360009559D0 /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E449C56B1E843360009559D0 /* TableViewCell2.xib */; };
+		E449C5701E8434F5009559D0 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449C56E1E8434F5009559D0 /* TableViewCell1.swift */; };
+		E449C5711E8434F5009559D0 /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E449C56F1E8434F5009559D0 /* TableViewCell1.xib */; };
 		E4D39A2B1E77E59D00B5C27C /* postLoginContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D39A2A1E77E59D00B5C27C /* postLoginContoller.swift */; };
+		E4D94E421E82474E008B7783 /* PostLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D94E411E82474E008B7783 /* PostLoginViewController.swift */; };
+		E4D94E441E824855008B7783 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D94E431E824855008B7783 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,7 +105,14 @@
 		ACFE29C41E749A7400842D6D /* Drug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
 		C889E7245A88F2969C2BF355 /* Pods-Tableto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tableto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tableto/Pods-Tableto.release.xcconfig"; sourceTree = "<group>"; };
 		E1984BDACA9D3FF27AD341B5 /* Pods-Tableto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tableto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tableto/Pods-Tableto.debug.xcconfig"; sourceTree = "<group>"; };
+		E449C5641E8431BD009559D0 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		E449C56A1E843360009559D0 /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		E449C56B1E843360009559D0 /* TableViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
+		E449C56E1E8434F5009559D0 /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		E449C56F1E8434F5009559D0 /* TableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
 		E4D39A2A1E77E59D00B5C27C /* postLoginContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postLoginContoller.swift; sourceTree = "<group>"; };
+		E4D94E411E82474E008B7783 /* PostLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostLoginViewController.swift; sourceTree = "<group>"; };
+		E4D94E431E824855008B7783 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +140,7 @@
 			children = (
 				AC9CA7FC1E63CE6100124819 /* User.swift */,
 				ACFE29C41E749A7400842D6D /* Drug.swift */,
+				E4D94E431E824855008B7783 /* Menu.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -184,6 +199,12 @@
 				AC9CA7F91E63C7B400124819 /* NewMessageController.swift */,
 				AC9CA7FE1E667B2200124819 /* LoginController+handlers.swift */,
 				E4D39A2A1E77E59D00B5C27C /* postLoginContoller.swift */,
+				E4D94E411E82474E008B7783 /* PostLoginViewController.swift */,
+				E449C5641E8431BD009559D0 /* CartViewController.swift */,
+				E449C56A1E843360009559D0 /* TableViewCell2.swift */,
+				E449C56B1E843360009559D0 /* TableViewCell2.xib */,
+				E449C56E1E8434F5009559D0 /* TableViewCell1.swift */,
+				E449C56F1E8434F5009559D0 /* TableViewCell1.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -359,8 +380,10 @@
 			files = (
 				ACFDD2591E82216A0003AF63 /* IQKeyboardManager.bundle in Resources */,
 				ACFC2DCF1E62D0B0001068A8 /* LaunchScreen.storyboard in Resources */,
+				E449C56D1E843360009559D0 /* TableViewCell2.xib in Resources */,
 				AC9CA7F61E62D1A300124819 /* GoogleService-Info.plist in Resources */,
 				ACFC2DCC1E62D0B0001068A8 /* Assets.xcassets in Resources */,
+				E449C5711E8434F5009559D0 /* TableViewCell1.xib in Resources */,
 				ACFC2DCA1E62D0B0001068A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,10 +457,12 @@
 				AC9CA7FF1E667B2200124819 /* LoginController+handlers.swift in Sources */,
 				ACFDD21B1E7E0C030003AF63 /* FirstPage+handlers.swift in Sources */,
 				ACFDD2501E82216A0003AF63 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				E4D94E421E82474E008B7783 /* PostLoginViewController.swift in Sources */,
 				ACFC2DC71E62D0B0001068A8 /* MessagesController.swift in Sources */,
 				ACFDD2191E7E0A570003AF63 /* FirstLoginPageController.swift in Sources */,
 				ACFDD21F1E7E123A0003AF63 /* GetLoginInfoController.swift in Sources */,
 				ACFDD2511E82216A0003AF63 /* IQKeyboardManager.swift in Sources */,
+				E449C5651E8431BD009559D0 /* CartViewController.swift in Sources */,
 				ACFDD2571E82216A0003AF63 /* IQToolbar.swift in Sources */,
 				ACFDD2561E82216A0003AF63 /* IQTitleBarButtonItem.swift in Sources */,
 				AC9CA7FD1E63CE6100124819 /* User.swift in Sources */,
@@ -446,13 +471,16 @@
 				ACFDD24E1E82216A0003AF63 /* IQUIWindow+Hierarchy.swift in Sources */,
 				ACFDD24A1E82216A0003AF63 /* IQUIScrollView+Additions.swift in Sources */,
 				ACFC2DC51E62D0B0001068A8 /* AppDelegate.swift in Sources */,
+				E449C5701E8434F5009559D0 /* TableViewCell1.swift in Sources */,
 				ACFDD24D1E82216A0003AF63 /* IQUIViewController+Additions.swift in Sources */,
 				ACFDD2581E82216A0003AF63 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				ACFDD25B1E8226BE0003AF63 /* CreateDriverController.swift in Sources */,
+				E4D94E441E824855008B7783 /* Menu.swift in Sources */,
 				ACFDD2531E82216A0003AF63 /* IQTextView.swift in Sources */,
 				ACFDD2541E82216A0003AF63 /* IQBarButtonItem.swift in Sources */,
 				ACFDD22C1E821C580003AF63 /* WelcomeScreenDriver.swift in Sources */,
 				E4D39A2B1E77E59D00B5C27C /* postLoginContoller.swift in Sources */,
+				E449C56C1E843360009559D0 /* TableViewCell2.swift in Sources */,
 				AC009C001E6AA9EB00EEC824 /* Extensions.swift in Sources */,
 				ACFE29C51E749A7400842D6D /* Drug.swift in Sources */,
 				ACFDD22E1E821ECF0003AF63 /* WelcomDriver+handler.swift in Sources */,
